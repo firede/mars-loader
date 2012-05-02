@@ -1,0 +1,19 @@
+<? /* 使用 Mars Loader 模块 */ ?>
+<? var Loader = require('dd://modules/mars-loader/1.0.0/mars-loader'); ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>在模板中以内联方式使用 Mars Loader</title>
+    <?= Loader.css("blueprint", "1.0.1") ?>
+    <?= Loader.js("jquery", "1.7.2") ?>
+</head>
+<body>
+    <h1 id="title">使用 Mars Loader 加载 Jquery</h1>
+    <script type="text/javascript">
+        $(function(){
+            $("#title").html("Jquery加载成功");
+        });
+    </script>
+</body>
+</html>
