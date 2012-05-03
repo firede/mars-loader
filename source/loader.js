@@ -1,5 +1,4 @@
-var _           = require("underscore"),
-    //_           = require("dd://modules/underscore/1.3.3/underscore"),
+var _           = require("dd://modules/underscore/1.3.3/underscore"),
     jsResource  = require("./js-resource.json"),
     cssResource = require("./css-resource.json"),
     jsRule      = '' +
