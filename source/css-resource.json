@@ -1,0 +1,34 @@
+{
+    "blueprint": {
+        "versions": {
+            "1.0.1": {
+                "uncompressed": [
+                    { "src": "screen.css", "media": "screen, projection" },
+                    { "src": "print.css", "media": "print" },
+                    { "src": "ie.css", "media": "screen, projection", "prefix": "<!--[if lt IE 8]>", "suffix": "<![endif]-->" }
+                ],
+                "compressed": [
+                    { "src": "screen.min.css", "media": "screen, projection" },
+                    { "src": "print.min.css", "media": "print" },
+                    { "src": "ie.min.css", "media": "screen, projection", "prefix": "<!--[if lt IE 8]>", "suffix": "<![endif]-->" }
+                ]
+            },
+            "1.0.0": {
+                "uncompressed": [
+                    { "src": "screen.css", "media": "screen, projection" },
+                    { "src": "print.css", "media": "print" },
+                    { "src": "ie.css", "media": "screen, projection", "prefix": "<!--[if lt IE 8]>", "suffix": "<![endif]-->" }
+                ],
+                "compressed": [
+                    { "src": "screen.min.css", "media": "screen, projection" },
+                    { "src": "print.min.css", "media": "print" },
+                    { "src": "ie.min.css", "media": "screen, projection", "prefix": "<!--[if lt IE 8]>", "suffix": "<![endif]-->" }
+                ]
+            }
+        },
+        "aliases": {
+            "1": "1.0.1",
+            "1.0": "1.0.1"
+        }
+    }
+}
